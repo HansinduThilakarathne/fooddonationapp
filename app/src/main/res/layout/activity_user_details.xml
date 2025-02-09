@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg"
+    android:padding="20dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:gravity="center_horizontal">
+
+        <!-- Profile Picture -->
+        <ImageView
+            android:id="@+id/profileImage"
+            android:layout_width="120dp"
+            android:layout_height="120dp"
+            android:layout_marginBottom="16dp"
+            android:background="@android:drawable/ic_menu_gallery"
+            android:backgroundTint="#EDE7E7"
+            android:backgroundTintMode="add"
+            android:scaleType="centerCrop"/>
+
+
+        <!-- Upload Profile Picture Button -->
+        <Button
+            android:id="@+id/uploadImageButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="16dp"
+            android:backgroundTint="#807B58"
+            android:text="Upload Profile Picture"
+            android:textColor="@android:color/white"
+            android:textSize="16sp" />
+
+        <!-- Name -->
+        <EditText
+            android:id="@+id/userName"
+            android:layout_width="match_parent"
+            android:layout_height="55dp"
+
+            android:hint="Full Name"
+            android:padding="16dp"
+            android:textColor="#F2EAEA"
+            android:textColorHighlight="#F4EFEF"
+            android:textColorHint="#F2ECEC"
+            android:textColorLink="#F6EAEA"
+            android:textSize="16sp" />
+
+        <!-- Email -->
+        <EditText
+            android:id="@+id/userEmail"
+            android:layout_width="match_parent"
+            android:layout_height="55dp"
+            android:hint="Email Address"
+            android:inputType="textEmailAddress"
+            android:padding="16dp"
+            android:textColor="#F6EFEF"
+            android:textColorHighlight="#F2EBEB"
+            android:textColorHint="#EFE5E5"
+            android:textColorLink="#F6ECEC"
+            android:textSize="16sp" />
+
+        <!-- Phone Number -->
+        <EditText
+            android:id="@+id/userPhone"
+            android:layout_width="match_parent"
+            android:layout_height="55dp"
+            android:hint="Phone Number"
+            android:inputType="phone"
+            android:padding="16dp"
+            android:textColor="#F2ECEC"
+            android:textColorHighlight="#EBE9E9"
+            android:textColorHint="#E7DADA"
+            android:textColorLink="#E7DDDD"
+            android:textSize="16sp" />
+
+        <!-- Address -->
+
+        <!-- Save Button -->
+
+        <EditText
+            android:id="@+id/userAddress"
+            android:layout_width="match_parent"
+            android:layout_height="55dp"
+            android:hint="Address"
+            android:padding="16dp"
+            android:textColor="#F6F1F1"
+            android:textColorHighlight="#EDE8E8"
+            android:textColorHint="#E9E3E3"
+            android:textColorLink="#EBE3E3"
+            android:textSize="16sp" />
+
+        <Button
+            android:id="@+id/saveButton"
+            android:layout_width="199dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:backgroundTint="#807B58"
+            android:text="Save Profile"
+            android:textColor="@android:color/white"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            app:iconTint="#FFFFFF" />
+    </LinearLayout>
+</ScrollView>

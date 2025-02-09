@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Food Donation App</string>
+    <string name="welcome_to_food_donation_app">Welcome to Food Donation App</string>
+    <string name="todo">TODO</string>
+    <string name="about_us">About Us</string>
+    <string name="donate_now">Donate Now</string>
+    <string name="enter_password">Enter password</string>
+</resources>

@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="24dp"
+    android:gravity="center"
+    android:background="@drawable/bg">
+
+    <!-- Title -->
+    <TextView
+        android:id="@+id/title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:paddingBottom="12dp"
+        android:text="Food Donation Form"
+        android:textColor="#EBE7E7"
+        android:textSize="34sp"
+        android:textStyle="bold" />
+
+    <!-- Donator Name -->
+    <EditText
+        android:id="@+id/donatorName"
+        android:layout_width="match_parent"
+        android:layout_height="55dp"
+        android:hint="Donator Name"
+        android:padding="16dp"
+        android:textColor="@color/white"
+        android:textColorHighlight="@color/white"
+        android:textColorHint="#F4EEEE"
+        android:textColorLink="@color/white"
+        android:textSize="18sp" />
+
+
+
+    <!-- ID Number -->
+    <EditText
+        android:id="@+id/idNumber"
+        android:layout_width="match_parent"
+        android:layout_height="55dp"
+        android:hint="ID Number"
+        android:inputType="number"
+        android:padding="16dp"
+        android:textColor="@color/white"
+        android:textColorHighlight="@color/white"
+        android:textColorHint="#EBE6E6"
+        android:textColorLink="@color/white"
+        android:textSize="18sp" />
+
+    <!-- Address -->
+    <EditText
+        android:id="@+id/address"
+        android:layout_width="match_parent"
+        android:layout_height="55dp"
+        android:hint="Address"
+        android:padding="16dp"
+        android:textColor="@color/white"
+        android:textColorHighlight="@color/white"
+        android:textColorHint="#F0E3E3"
+        android:textColorLink="@color/white"
+        android:textSize="18sp" />
+
+
+
+    <!-- Contact Number -->
+    <EditText
+        android:id="@+id/contactNumber"
+        android:layout_width="match_parent"
+        android:layout_height="55dp"
+        android:hint="Contact Number"
+        android:inputType="phone"
+        android:padding="16dp"
+        android:textColor="@color/white"
+        android:textColorHighlight="@color/white"
+        android:textColorHint="#E0D5D5"
+        android:textSize="18sp" />
+
+    <!-- Food Name -->
+    <EditText
+        android:id="@+id/foodName"
+        android:layout_width="match_parent"
+        android:layout_height="55dp"
+        android:hint="Food Name"
+        android:padding="16dp"
+        android:textColor="@color/white"
+        android:textColorHighlight="@color/white"
+        android:textColorHint="#F0DFDF"
+        android:textSize="18sp" />
+
+
+
+    <!-- Food Quantity -->
+    <EditText
+        android:id="@+id/foodQuantity"
+        android:layout_width="match_parent"
+        android:layout_height="55dp"
+        android:hint="Quantity"
+        android:inputType="number"
+        android:padding="16dp"
+        android:textColor="@color/white"
+        android:textColorHighlight="#F8EFEF"
+        android:textColorHint="#F0ECEC"
+        android:textColorLink="@color/white"
+        android:textSize="18sp" />
+
+    <!-- Submit Button -->
+    <Button
+        android:id="@+id/homeButton"
+        android:layout_width="200dp"
+        android:layout_height="55dp"
+        android:layout_below="@id/missionStatement"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="30dp"
+        android:backgroundTint="#807B58"
+        android:text="Submit Donation"
+        android:textColor="@android:color/white"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+
+</LinearLayout>
